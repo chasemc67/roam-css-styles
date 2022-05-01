@@ -260,3 +260,36 @@ Notes:      - Thanks to the supportive people on r/RoamResearch, GitHub and Twit
 .rm-zoom-path .rm-zoom-item {
     color: hsl(0, 0%, 91%);
 }
+
+.rm-code-block {
+  background: var(--code-bg);
+color: var(--code-font-color);
+border: var(--code-border);
+border-radius: var(--codemirror-border-radius);
+}
+
+.cm { /* code block */
+border: 1px solid var(--codemirror-border-color);
+border-radius: var(--codemirror-border-radius);
+background: var(--codemirror-bg) !important;
+color: var(--main-font-color) !important;
+}
+.cm-code {
+padding-left: 12px !important;
+}
+div.cm-selected { /* selected color */
+background: var(--block-highlight) !important;
+}
+.cm-gutters {
+background: var(--bg-color);
+padding-right: 12px;
+border-right: 1px solid var(--bg-color);
+}
+.cm-cursor {
+border-left: 2px solid var(--bullet-color) !important;
+}
+/*_TOGGLE--  Matching bracket like Atom  --*/
+.CodeMirror-matchingbracket {
+color: var(--main-font-color) !important;
+border-bottom: 1px solid var(--code-matchingbracket-color);
+}
